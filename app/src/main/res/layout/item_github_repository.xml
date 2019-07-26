@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/Label"
+            android:text="@string/id" />
+
+        <TextView
+            android:id="@+id/text_id"
+            style="@style/TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/Label"
+            android:text="@string/note_id" />
+
+        <TextView
+            android:id="@+id/text_note_id"
+            style="@style/TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/Label"
+            android:text="@string/name" />
+
+        <TextView
+            android:id="@+id/text_name"
+            style="@style/TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/Label"
+            android:text="@string/_private" />
+
+        <TextView
+            android:id="@+id/text_private"
+            style="@style/TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/Label"
+            android:text="@string/url" />
+
+        <TextView
+            android:id="@+id/text_url"
+            style="@style/TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/Label"
+            android:text="@string/description" />
+
+        <TextView
+            android:id="@+id/text_description"
+            style="@style/TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/Label"
+            android:text="@string/created_at" />
+
+        <TextView
+            android:id="@+id/text_created_at"
+            style="@style/TextView" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/colorAccent"
+        android:layout_margin="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</LinearLayout>

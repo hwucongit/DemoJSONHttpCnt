@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DemoJSONHttpUrlCnt</string>
+    <string name="id">ID:</string>
+    <string name="note_id">Note ID:</string>
+    <string name="name">Name:</string>
+    <string name="_private">Private:</string>
+    <string name="url">URL:</string>
+    <string name="description">Description:</string>
+    <string name="created_at">Created at:</string>
+</resources>
